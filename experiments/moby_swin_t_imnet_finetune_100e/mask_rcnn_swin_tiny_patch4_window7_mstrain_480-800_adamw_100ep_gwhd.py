@@ -115,7 +115,7 @@ model = dict(
             max_per_img=100,
             mask_thr_binary=0.5)))
 dataset_type = 'WheatDataset'
-data_root = 'data/gwhd/'
+data_root = 'gwhd_2021'
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 albu_train_transforms = [
